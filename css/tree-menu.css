@@ -1,0 +1,400 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+
+body {
+	font-family:"ProximaNova", helvetica, arial, san-serif;
+  	padding-top: 50px;
+}
+
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.fa-folder-o, .fa-folder-open-o, .fa-file-pdf-o, .fa-cube, .fa-file-video-o, .fa-folder, .fa-folder-open, .fa-chevron-right, .fa-chevron-down {
+	padding-right: 5px;
+}
+
+
+
+
+.just-padding {
+    padding: 15px;
+}
+
+.list-group.list-group-root {
+    padding: 0;
+    overflow: hidden;
+}
+
+.list-group.list-group-root .list-group {
+    margin-bottom: 0;
+}
+
+.list-group.list-group-root .list-group-item {
+    border-radius: 0;
+    border-width: 1px 0 0 0;
+}
+
+.list-group.list-group-root > .list-group-item:first-child {
+    border-top-width: 0;
+}
+
+.list-group.list-group-root > .list-group > .list-group-item {
+    padding-left: 45px;
+}
+
+.list-group.list-group-root > .list-group > .list-group > .list-group-item {
+    padding-left: 60px;
+}
+
+.list-group-item .glyphicon {
+    margin-right: 10px;
+}
+
+
+
+
+
+.list-head {
+	color:#008CA8;
+	font-weight:bold;
+}
+
+
+.subhead {
+	color:#008CA8;
+	margin-left:10px;
+	margin-bottom:0px;
+}
+
+.alt-bg {
+	background-color:#f3f6fa; 
+}
+
+
+
+
+.blue {
+	color:#007AFF;
+}
+
+.blue-green {
+	color:#4acab4;
+}
+
+.red {
+	color:#F06655;
+}
+
+.green {
+	color:#31D132;
+}
+
+.list-group-item-alt {
+    background-color:#f3f6fa;
+}
+
+.course-title {
+	font-family:"ProximaNova-Light";
+	color:#333333;
+	font-weight:100;
+	font-size:30px;
+}
+
+.just-padding img {
+	padding-bottom:10px;
+	margin-right:5px;
+}
+
+.level-one {
+	color:#005a88;
+}
+
+.level-two {
+	color:#008cd4;
+}
+
+.level-one-bg {
+	color:#fff;
+	background-color:#1976D2;
+}
+
+
+
+.level-two-bg {
+	color:#fff;
+	background-color:#1E88E5;
+}
+
+.level-three-bg {
+	color:#fff;
+	background-color:#2196F3;
+}
+
+.circle-bg-01 {
+	background:#3EDC81;
+	color:#FFF;
+	width:20px;
+	height:20px;
+	padding:5px;
+	font-size:24px;
+	line-height:20px;
+	margin-left:auto;
+	margin-right:auto;
+	float:left;
+	justify-content: left;
+	align-items: left;
+	border-radius:50%;
+	
+}
+
+.blue-folder {
+	color:rgb(49, 136, 209);
+}
+
+.orange-folder {
+	color:rgb(215, 159, 63);
+}
+
+.green-folder {
+	color:#4CAF50;
+}
+
+.light-green-folder {
+	color:#8BC34A;
+}
+
+.lime-folder {
+	color:#CDDC39;
+}
+
+.indigo {
+	color:#3F51B5;
+}
+
+.light-blue {
+	color:#03A9F4;
+}
+
+.social-blue {
+	color:#00938F;
+}
+
+
+.btn-blue {
+	color:#fff;
+	background-color:#2196F3;
+}
+
+.modal-bg-01 {
+	background-image:url(../media/images/modal-banner.jpg);
+}
+
+.modal-title-white {
+	color:#fff;
+}
+
+.close-white {
+    color: #fff; 
+    opacity: 1;
+	font-size: 24px;
+	font-weight:lighter;
+}
+
+.btn-teal {
+	color:#fff;
+	background-color:#008CA8;
+}
+
+.teal {
+	color:#008CA8;
+}
+
+.modal-gray {
+	background-color:#CCC;
+}
+
+.bento-blue {
+	color:rgb(73, 123, 137);
+}
+
+.btn-bento-blue {
+	color:#fff;
+	background-color:rgb(73, 123, 137);
+}
+
+.white {
+	color:#fff;
+}
+
+
+
+.list-group-item-level-one {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  margin-bottom: -1px;
+  color:#fff;
+  background-color: #1976D2;
+  border: 1px solid #ddd;
+}
+
+.list-group-item-level-two {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  margin-bottom: -1px;
+  color:#fff;
+  background-color: #1E88E5;
+  border: 1px solid #ddd;
+}
+
+.list-group-item-level-three {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  margin-bottom: -1px;
+  color:#fff;
+  background-color: #2196F3;
+  border: 1px solid #ddd;
+}
+
+
+.list-group-item-dark {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  margin-bottom: -1px;
+  color:#82c1ff;
+  background-color: #263146;
+  border: 1px solid #ddd;
+}
+
+
+a.list-group-item-dark {
+	color:#82c1ff;
+}
+
+.list-group-item-left-border {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  margin-bottom: -1px;
+  color:#fff;
+  border-style:solid;
+  border-left-color:#007AFF;
+  border-left-width:5px;
+}
+
+
+
+
+
+.btn-bright-blue {
+	color:#fff;
+	background-color:#1976D2;
+}
+
+.btn-white {
+  color: #fff;
+   background-color: transparent;
+  border-color: #fff;
+}
+
+.btn-white:hover {
+  color: #00aeef;
+  background-color: #fff;
+  border-color: #fff;
+}
+
+.bright-blue {
+	color:#1976D2;
+}
+
+a.list-group-item-level-one:hover,
+a.list-group-item-level-one:focus {
+  color: #555;
+  text-decoration: none;
+  background-color: #2196F3;
+}
+
+a.list-group-item-level-two:hover,
+a.list-group-item-level-two:focus {
+  color: #555;
+  text-decoration: none;
+  background-color: #2196F3;
+}
+
+a.list-group-item-level-three:hover,
+a.list-group-item-level-three:focus {
+  color: #555;
+  text-decoration: none;
+  background-color: #42A5F5;
+}
+
+.blur {
+	height:auto;
+	margin-left: auto;
+    margin-right: auto;
+	text-align:center;
+	padding:60px 20px 20px 20px;
+}
+
+.blur img {
+	 margin-left: auto;
+    margin-right: auto;
+}
+
+.blur h1, h2 {
+	 margin-left: auto;
+    margin-right: auto;
+	color:#fff;
+}
+
+.blur h1 {
+	 margin-bottom:5px;
+	text-align:center;
+	color:#fff;
+}
+
+.blur h2 {
+	 margin-top:5px;
+	 margin-bottom:20px;
+	text-align:center;
+	color:#fff;
+}
+
+.blur .btn {
+	margin-left: auto;
+    margin-right: auto;
+	text-align:center;
+}
+
+.bg-image {
+	margin-top:-15px;
+	margin-bottom:-15px;
+	background:
+	  linear-gradient(
+      rgba(0, 229, 255, 0.45), 
+      rgba(0, 229, 255, 0.45)
+    ),
+	url(../media/images/fish-bg-01.jpg);
+	background-repeat:no-repeat;
+}
+
+
+.add-fifteen {
+	padding-top:15px;
+}
+
+
+
+
+.list-group.list-group-root .list-group-item-left-border {
+    border-radius: 0;
+    border-width: 1px 0 0 5px;
+}
